@@ -1,5 +1,7 @@
-require "keiko_parser/version"
+# Libraries
+require 'nokogiri'
+require 'open-uri'
 
-module KeikoParser
-  # Your code goes here...
-end
+# Keiko::Parser
+require_relative "keiko_parser/version"
+require_relative "keiko_parser/finder"
